@@ -14,3 +14,4 @@ class IsPatient(BasePermission):
     def has_permission(self, request, view):
         return request.user.is_authenticated and request.user.user_type == 'patient'
 'Here i have added seperate field for doctor and patients'
+"Trying to upload the video"
